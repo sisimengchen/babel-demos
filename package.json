@@ -1,0 +1,37 @@
+{
+  "name": "babel-demos",
+  "version": "1.0.0",
+  "description": "a collection of simple demos of Babel",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ignore '*_to.js' src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sisimengchen/babel-demos.git"
+  },
+  "keywords": [
+    "Babel"
+  ],
+  "author": "sisimengchen@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sisimengchen/babel-demos/issues"
+  },
+  "homepage": "https://github.com/sisimengchen/babel-demos#readme",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "antd": "^3.20.3",
+    "fs-extra": "^8.1.0",
+    "react": "^16.8.6",
+    "regenerator-runtime": "^0.13.2",
+    "resolve": "^1.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
